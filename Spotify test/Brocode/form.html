@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+    
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Ahjathenation" minlength="6" maxlength="15" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="ahjathenation@gmail.com" required><br><br>
+
+        <label for="phone">phone  #:</label>
+        <input type="te;" id="phone" placeholder="0877-7317-9300" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" required><br><br>
+
+        <label for="bday">Birthdate:</label>
+        <input type="date" id="bday" required><br><br>
+
+        <label for="quantity">quantity</label>
+        <input type="number" min="0" max="50" value="1"><br><br>
+
+        <label for="title">title:</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title" required>
+        <label for="Ms.">Ms.</label>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <label for="PhD.">PhD.</label>
+        <input type="radio" id="PhD." value="PhD." name="title"><br><br>
+
+        <label for="payment">payment:</label>
+        <select>
+            <option value="Visa">Visa</option>
+            <option value="Matercard">Mastercard</option>
+            <option value="Giftcard">Giftcard</option>
+        </select><br><br>
+
+        <label for="subscribe">subscribe:</label>
+        <input type="checkbox" id="subscribe" required><br><br>
+
+        <label for="file">file:</label>
+        <input type="file" id="file" accept="image/jpeg"><br><br>
+
+        <label for="comment">comment: </label>
+        <textarea id="comment" rows="5" cols="30" style="position: absolute"></textarea><br><br><br><br><br><br>
+
+        <input type="reset">
+        <input type="submit"><br>
+            
+    </form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second portofolio web CSS</title>
+    <script src="https://kit.fontawesome.com/c3d4ef561c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">Ahja<b>.</b></div>
+            <ul class="navitems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multitext"></span></h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus voluptas possimus voluptates excepturi quasi minus consequatur reprehenderit culpa iusto sit molestias adipisci repudiandae deserunt error facere corrupti velit, commodi neque!</p>
+                <div class="btns">
+                    <button><a href="#">Download CV</a></button>
+                    <button><a href="#">Hire me</a></button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="image/splash.png" id="splash">
+                    <img src="image/man.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0"></script>
+    <script>
+        var typed = new Typed('.multitext',{
+            strings : ['coder','photographer','designer'],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500
+        })
+    </script>
+</body>
+</html>
